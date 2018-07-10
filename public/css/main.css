@@ -234,6 +234,7 @@ appearance: none;:hover {
   left: 0;
   transition: transform .2s;
   position: relative;
+  border-bottom: solid 1px #414141;
 }
 
 .pcard img:hover {
@@ -261,6 +262,15 @@ appearance: none;:hover {
 
 .pcard .fab {
   color: #414141;
+}
+
+.card-body {
+  background-color: ghostwhite;
+  border-top: solid 1px #414141;
+}
+
+#jcard .card-body {
+  border-bottom: solid 1px #414141;
 }
 
 .top-right {
